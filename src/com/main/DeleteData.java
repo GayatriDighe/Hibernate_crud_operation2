@@ -25,7 +25,7 @@ public class DeleteData {
 	    //ss.remove(s);
 	    ss.delete(s);
 	    
-	    System.out.println("data is inserted successfully");
+	    System.out.println("data is deleted successfully");
 	    tr.commit();
 	    ss.close();
 	    
